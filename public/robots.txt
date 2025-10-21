@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Add sitemap URL once deployed with Pages
+# Sitemap: https://syed0sama.github.io/sitemap.xml
