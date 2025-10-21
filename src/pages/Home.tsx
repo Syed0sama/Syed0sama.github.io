@@ -47,11 +47,11 @@ export default function Home() {
       <section className="mt-10 bg-white/80 backdrop-blur rounded-2xl shadow-lg ring-1 ring-blue-200/50 p-6">
         <h2 className="text-xl font-semibold text-gray-900">Career Objective</h2>
         <p className="mt-3 text-gray-700 leading-7">
-          I am Syed Muhammad Osama, an accomplished Full Stack Engineer with one year of hands-on
-          experience in the industry. I am now seeking a challenging and rewarding position with a
-          forward-thinking company that will enable me to leverage my skills and expertise to contribute
-          to their mission and goals. I am dedicated to continuous improvement and am excited to take on
-          complex projects, drive innovation, and excel in a dynamic work environment.
+          I am Syed Muhammad Osama, a versatile Full Stack Engineer and SAP HANA Developer with hands-on experience in building scalable web applications and optimizing enterprise-grade data solutions. Over the past year, I have worked on complex data transformation, automation, and backend optimization projects in SAP HANA, while also developing modern React.js and Node.js-based applications using PostgreSQL and MongoDB. 
+          
+          I’m passionate about creating efficient, data-driven systems and intuitive user interfaces that bridge business logic with real-world performance. My goal is to continue evolving as a developer by contributing to innovative, growth-oriented projects that value clean architecture, performance, and impact.
+
+          Beyond technical expertise, I take pride in my problem-solving mindset and collaborative approach. I enjoy working in agile, cross-functional teams where ideas turn into impactful solutions through creativity and precision. I’m continuously exploring emerging technologies, refining my skills, and striving to deliver work that not only meets requirements but also drives meaningful value for both users and organizations.
         </p>
       </section>
     </main>
