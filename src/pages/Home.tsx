@@ -3,7 +3,7 @@ export default function Home() {
     <main className="mx-auto max-w-6xl px-4 py-10">
       <section className="grid gap-8 md:grid-cols-[220px,1fr] items-start bg-white/80 backdrop-blur rounded-2xl shadow-lg ring-1 ring-blue-200/50 p-6">
         <img
-          src="/images/osama.jpg"
+          src="/images/osama1.jpg"
           alt="Syed Muhammad Osama"
           className="w-52 h-52 object-cover rounded-xl shadow-md"
         />
