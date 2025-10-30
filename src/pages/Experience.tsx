@@ -25,6 +25,27 @@ export default function Experience() {
           </ul>
         </section>
 
+        {/* HUAWEI */}
+
+        <section className="mt-6">
+          <h2 className="text-xl font-semibold">Huawei </h2>
+          <div className="mt-1 text-gray-700"> IP Datacom Engineer </div>
+          <ul className="mt-3 list-disc pl-6 space-y-2 text-gray-700">
+            <li>
+              Layer 2 protocols (STP,VLAN,ARP,LLDP) 
+            </li>
+            <li>
+             Layer 3 protocols ( RIP, OSPF, ISIS, BGP,MPLS), 
+            </li>
+            <li>
+              VPN (MPLS L3 vpn, L2 VPN) 
+            </li>
+            <li>Traffic Engineering (MPLS TE tunnel, HOvpn, Hotstandby Tunnel).</li>
+          </ul>
+        </section>
+
+
+
         {/* Pakcelerant */}
         <section className="mt-8">
           <h2 className="text-xl font-semibold">Pakcelerant</h2>
