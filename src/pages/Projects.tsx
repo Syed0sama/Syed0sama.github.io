@@ -219,6 +219,99 @@ export default function Projects() {
         </div>
       </article>
 
+      {/* Janjua Brothers */}
+      <article className="panel mt-8 overflow-hidden p-0">
+        <div className="border-b border-[var(--border)] p-6 sm:p-8">
+          <span className="font-mono text-[0.65rem] text-mute">WEB · REACT + TYPESCRIPT</span>
+          <h2 className="mt-1 text-2xl font-semibold text-ink">
+            Janjua Brothers & Enterprises — Corporate Website
+          </h2>
+          <p className="mt-3 max-w-3xl text-sm leading-relaxed text-mute sm:text-base">
+            A modern, responsive corporate website for a construction and enterprise company, built
+            with React, TypeScript, and Tailwind CSS. The site presents services, project highlights,
+            and company credibility through a clean, professional layout designed for trust and
+            lead generation.
+          </p>
+          <BulletList
+            items={[
+              'Fully responsive layout optimized for desktop, tablet, and mobile.',
+              'Service-focused sections showcasing construction and enterprise offerings.',
+              'Modern UI with Tailwind CSS — consistent typography, spacing, and visual hierarchy.',
+              'Type-safe React components for maintainable, scalable frontend architecture.',
+            ]}
+          />
+          <div className="mt-6">
+            <h3 className="font-mono text-xs uppercase tracking-widest text-signal">Stack</h3>
+            <div className="mt-3 flex flex-wrap gap-2">
+              {['React', 'TypeScript', 'Tailwind CSS', 'HTML5', 'Responsive Design'].map((t) => (
+                <span key={t} className="skill-chip">
+                  {t}
+                </span>
+              ))}
+            </div>
+          </div>
+          <a
+            href="https://janjuabrotherss.com/"
+            target="_blank"
+            rel="noreferrer"
+            className="btn-ghost mt-6 inline-flex"
+          >
+            Visit Live Site →
+          </a>
+        </div>
+
+        <div className="aspect-video w-full bg-void">
+          <iframe
+            className="h-full w-full"
+            src="https://www.youtube.com/embed/r1Pnm8RFpSo"
+            title="Janjua Brothers React TypeScript Website Demo"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          />
+        </div>
+      </article>
+
+      {/* Pakcelerant Landing Page */}
+      <article className="panel mt-8 overflow-hidden p-0">
+        <div className="border-b border-[var(--border)] p-6 sm:p-8">
+          <span className="font-mono text-[0.65rem] text-mute">WEB · REACT + TYPESCRIPT</span>
+          <h2 className="mt-1 text-2xl font-semibold text-ink">Pakcelerant — Landing Page</h2>
+          <p className="mt-3 max-w-3xl text-sm leading-relaxed text-mute sm:text-base">
+            A polished marketing landing page for Pakcelerant, built with React, TypeScript, and
+            Tailwind CSS. Designed to communicate the brand value proposition clearly, drive user
+            engagement, and convert visitors through a focused, high-impact single-page experience.
+          </p>
+          <BulletList
+            items={[
+              'Conversion-focused landing page with clear hero, features, and call-to-action sections.',
+              'Smooth, modern UI built with Tailwind CSS utility-first styling.',
+              'Component-based React architecture with full TypeScript type safety.',
+              'Responsive design ensuring a consistent experience across all screen sizes.',
+            ]}
+          />
+          <div className="mt-6">
+            <h3 className="font-mono text-xs uppercase tracking-widest text-signal">Stack</h3>
+            <div className="mt-3 flex flex-wrap gap-2">
+              {['React', 'TypeScript', 'Tailwind CSS', 'HTML5', 'Landing Page'].map((t) => (
+                <span key={t} className="skill-chip">
+                  {t}
+                </span>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        <div className="aspect-video w-full bg-void">
+          <iframe
+            className="h-full w-full"
+            src="https://www.youtube.com/embed/QbzmnuwB6aM"
+            title="Pakcelerant Landing Page Demo"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          />
+        </div>
+      </article>
+
       {/* FYP */}
       <article className="panel mt-8 p-6 sm:p-8">
         <span className="font-mono text-[0.65rem] text-mute">09/2021 — 06/2022</span>
