@@ -280,14 +280,15 @@ body {
   transform: translateY(-2px);
 }
 
-.social-icon img {
-  @apply h-5 w-5 object-contain opacity-80;
-  filter: grayscale(0.3) brightness(1.1);
+.social-icon svg {
+  @apply h-5 w-5 opacity-80;
+  color: var(--mute, #9ca3af);
+  transition: all 0.3s ease;
 }
 
-.social-icon:hover img {
+.social-icon:hover svg {
   opacity: 1;
-  filter: none;
+  color: var(--accent);
 }
 
 @media (prefers-reduced-motion: reduce) {
