@@ -1,12 +1,17 @@
 const roles = [
   {
     company: 'TMC (TallyMarks Consultancy)',
-    title: 'SAP HANA & ABAP Developer',
+    title: 'Associate Consultant – SAP',
     points: [
-      'Designed and implemented SAP HANA SQLScript procedures for large-scale data transformation, automation, and backend optimization across multiple business domains.',
-      'Developed and deployed full-stack applications using React.js, Node.js, PostgreSQL, and MongoDB, integrating data-driven logic and REST APIs.',
-      'Focused on scalable architecture, clean code practices, and performance tuning for enterprise and web-based solutions.',
-      'Actively exploring system scalability, process automation, and API integration.',
+      'Telenor CMS Project',
+      'Engineered high-volume data processing workflows handling millions of transactional records daily, with automated ingestion, transformation, validation, and downstream processing.',
+      'Developed Linux Shell-based ETL automation to retrieve source files from SFTP, perform file-level processing, and trigger subsequent database workflows.',
+      'Designed and optimized SAP HANA SQL procedures for large-scale data transformation, validation, business-rule execution, and transactional processing.',
+      'Implemented automated data pipelines to process transformed datasets and load them into SAP Cloud systems.',
+      'Developed a custom real-time commission processing system capable of processing live transactions and posting commissions within approximately 2 seconds.',
+      'Built backend services and APIs using Python and Flask, with supporting Python processing scripts and Linux Cron Jobs for scheduled automation and operational workflows.',
+      'HEC Project',
+      'Developed and maintained SAP ABAP solutions, including Adobe Forms for automated document generation and business reporting requirements.',
     ],
   },
   {
@@ -20,7 +25,7 @@ const roles = [
     ],
   },
   {
-    company: 'Pakcelerant',
+    company: 'Pakcelerant (USA-based)',
     title: 'Full Stack Engineer',
     points: [
       'Developed and maintained robust, scalable web applications across frontend and backend, ensuring seamless user experiences.',
