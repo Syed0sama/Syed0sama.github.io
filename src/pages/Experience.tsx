@@ -3,14 +3,14 @@ const roles = [
     company: 'TMC (TallyMarks Consultancy)',
     title: 'Associate Consultant – SAP',
     points: [
-      'Telenor CMS Project',
+      'Telenor CMS Project:',
       'Engineered high-volume data processing workflows handling millions of transactional records daily, with automated ingestion, transformation, validation, and downstream processing.',
       'Developed Linux Shell-based ETL automation to retrieve source files from SFTP, perform file-level processing, and trigger subsequent database workflows.',
       'Designed and optimized SAP HANA SQL procedures for large-scale data transformation, validation, business-rule execution, and transactional processing.',
       'Implemented automated data pipelines to process transformed datasets and load them into SAP Cloud systems.',
       'Developed a custom real-time commission processing system capable of processing live transactions and posting commissions within approximately 2 seconds.',
       'Built backend services and APIs using Python and Flask, with supporting Python processing scripts and Linux Cron Jobs for scheduled automation and operational workflows.',
-      'HEC Project',
+      'HEC Project:',
       'Developed and maintained SAP ABAP solutions, including Adobe Forms for automated document generation and business reporting requirements.',
     ],
   },
@@ -80,14 +80,33 @@ export default function Experience() {
               </span>
             </div>
             <p className="mt-1 font-mono text-sm text-signal">{role.title}</p>
-            <ul className="mt-5 space-y-2.5">
-              {role.points.map((point) => (
-                <li key={point} className="flex gap-3 text-sm leading-relaxed text-mute">
-                  <span className="mt-2 h-1 w-1 shrink-0 bg-signal" />
-                  <span>{point}</span>
-                </li>
-              ))}
-            </ul>
+           <ul className="mt-5 space-y-2.5">
+  {role.points.map((point) => {
+    const isSubheading =
+      point === 'Telenor CMS Project:' || point === 'HEC Project:'
+
+    if (isSubheading) {
+      return (
+        <li
+          key={point}
+          className="pt-3 text-sm font-semibold text-ink"
+        >
+          {point}
+        </li>
+      )
+    }
+
+    return (
+      <li
+        key={point}
+        className="flex gap-3 text-sm leading-relaxed text-mute"
+      >
+        <span className="mt-2 h-1 w-1 shrink-0 bg-signal" />
+        <span>{point}</span>
+      </li>
+    )
+  })}
+</ul>
           </article>
         ))}
       </div>
