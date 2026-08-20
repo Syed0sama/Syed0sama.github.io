@@ -176,9 +176,23 @@ export default function Projects() {
               'Local-first inference for privacy and offline support',
               'Strong TypeScript typing, dependency isolation, and scalable monorepo structure',
               'Enterprise principles: modular architecture, reusable services, maintainable codebase',
+              
             ]}
+            
+          />
+          <br></br>
+        </div>
+
+          <div className="aspect-video w-full bg-void">
+          <iframe
+            className="h-full w-full"
+            src="https://www.youtube.com/embed/Bf-m1f3wM6U"
+            title="Nexus App Demo"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
           />
         </div>
+        
       </article>
 
       {/* Food Delivery */}
