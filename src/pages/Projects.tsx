@@ -195,6 +195,97 @@ export default function Projects() {
         
       </article>
 
+            {/* Company Knowledge Assistant */}
+      <article className="panel mt-8 overflow-hidden p-0">
+        <div className="border-b border-[var(--border)] p-6 sm:p-8">
+          <span className="font-mono text-[0.65rem] text-mute">
+            FEATURED · AI + RAG
+          </span>
+
+          <h2 className="mt-1 text-2xl font-semibold text-ink sm:text-3xl">
+            Company Knowledge Assistant — RAG
+          </h2>
+
+          <p className="mt-4 max-w-3xl text-sm leading-relaxed text-mute sm:text-base">
+            An AI-powered internal knowledge assistant that allows employees to
+            ask questions about company policies and documents using natural
+            language. The system retrieves relevant document chunks and uses
+            them as context to generate grounded answers instead of relying
+            solely on the LLM's general knowledge.
+          </p>
+
+          <BulletList
+            items={[
+              'Document ingestion and automatic text chunking.',
+              'Semantic embeddings generated locally using Ollama and nomic-embed-text.',
+              'Vector storage and similarity search using ChromaDB.',
+              'Retrieval-Augmented Generation (RAG) pipeline for context-aware answers.',
+              'Source retrieval showing the most relevant document chunks used for the answer.',
+              'REST API backend built with Node.js and Express.js.',
+              'Dockerized backend and ChromaDB environment for consistent deployment.',
+            ]}
+          />
+
+          <div className="mt-6">
+            <h3 className="font-mono text-xs uppercase tracking-widest text-signal">
+              Stack
+            </h3>
+
+            <div className="mt-3 flex flex-wrap gap-2">
+              {[
+                'React',
+                'Node.js',
+                'Express.js',
+                'JavaScript',
+                'Ollama',
+                'nomic-embed-text',
+                'ChromaDB',
+                'RAG',
+                'Docker',
+                'REST API',
+              ].map((t) => (
+                <span key={t} className="skill-chip">
+                  {t}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          <div className="mt-8">
+            <h3 className="font-mono text-xs uppercase tracking-widest text-signal">
+              Architecture
+            </h3>
+
+            <div className="mt-3 flex flex-wrap gap-2">
+              {[
+                'Document Loader',
+                'Text Chunker',
+                'Embedding Service',
+                'ChromaDB',
+                'Semantic Search',
+                'Context Retrieval',
+                'LLM Generation',
+                'Source Attribution',
+              ].map((m) => (
+                <span key={m} className="skill-chip">
+                  {m}
+                </span>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        <div className="aspect-video w-full bg-void">
+          <iframe
+            className="h-full w-full"
+            src="https://www.youtube.com/embed/9wZ8rxItEWE"
+            title="Company Knowledge Assistant RAG Demo"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          />
+        </div>
+      </article>
+
       {/* Food Delivery */}
       <article className="panel mt-8 overflow-hidden p-0">
         <div className="border-b border-[var(--border)] p-6 sm:p-8">
